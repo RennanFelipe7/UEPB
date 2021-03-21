@@ -1,0 +1,11 @@
+Valor1 = 1
+valor2 = 1
+cont = 2 
+Posicao = int(input("Voce quer imprimir ate que posicao na serie de Fibonacci? "))
+print("1 1",end=" ")
+while cont != Posicao:
+    valor3 = Valor1 + valor2
+    Valor1 = valor2
+    valor2 = valor3
+    cont = cont + 1
+    print(valor3,end=" ")
