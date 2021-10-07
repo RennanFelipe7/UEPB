@@ -1,0 +1,20 @@
+Desenvolva as questões a seguir em linguagem C++.
+
+1) Dado o tipo de dados de funcionário a seguir:
+Matrícula - inteiro;
+nome - string;
+salário - double;
+função - string;
+
+Implemente uma tabela hash de tamanho M = 25. Os funcionários devem ser indexados pela sua matrícula e a função de hash deve ser h(x) = x % M. 
+Para o tratamento de colisões, use listas simplesmente encadeadas.
+Faça um programa com um laço para incluir funcionários na tabela, até que o usuário informe matrícula 0 (4,0 pontos).
+
+
+2) Considere um grafo em que cada vértice representa uma pessoa e cada adjacência representa um voto. 
+Faça uma função que receba a matriz de adjacência desse grafo e retorne o índice do vértice que venceu a eleição. 
+Considere o índice de linha e coluna da matriz como os índices dos vértices (3,0 pontos).
+
+
+3) Faça uma função que receba uma árvore binária de pesquisa contendo as mesmas informações da questão 1. 
+A função deve retornar a soma dos salários de todos os vendedores (3,0 pontos).
