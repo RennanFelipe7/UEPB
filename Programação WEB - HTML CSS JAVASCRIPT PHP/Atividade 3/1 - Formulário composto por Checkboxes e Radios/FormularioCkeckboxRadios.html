@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang=”pt-br”> 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Formulario com Ckeckbox e Radios</title>
+    </head>
+
+    <body>
+        <form>
+            <h1>Formulário de cadastro de vacinação da Covid-19</h1>
+            <br>
+            <p>Digite abaixo os dados do paciente :</p>
+            <label for="NomeDoPasciente">Nome:</label>
+            <input type="text" name="nome" id="NomeDoPasciente" required>
+            <br><br>
+            <label for="CPFDoPasciente">CPF:</label>
+            <input type="text" name="cpf" id="CPFDoPasciente" required>
+            <br><br>
+            <label for="RGDoPasciente">RG:</label>
+            <input type="text" name="rg" id="RGDoPasciente">
+            <br><br>
+            <label for="CartaoDoSUSDoPasciente">Numero do cartao do SUS:</label required>
+            <input type="text" name="sus" id="CartaoDoSUSDoPasciente">
+            <br>
+            <p>Marque abaixo os tipos de alergias se o paciente tiver</p>
+            <label for="alergias">Alergias :</label>
+            <br>
+            <input id="hidroxidodealuminio" type="checkbox" name="alergias">
+            <label for="hidroxidodealuminio">Hidróxido de Alumínio</label>
+            <br>
+            <input id="esqualeno" type="checkbox" name="alergias">
+            <label for="esqualeno">Esqualeno</label>
+            <br>
+            <input id="cloretodesodio" type="checkbox" name="alergias">
+            <label for="cloretodesodio">Cloreto de Sódio (sal)</label>
+            <br>
+            <input id="conservantes" type="checkbox" name="alergias">
+            <label for="conservantes">Conservantes</label>
+            <br>
+            <input id="estabilizadores" type="checkbox" name="alergias">
+            <label for="estabilizadores">Estabilizadores</label>
+            <br>
+            <p>Marque abaixo a vacina que o paciente tomou</p>
+            <label for="vacina">Vacina :</label>
+            <br>
+            <input type="radio" name="vacina" id="pfizer" required>
+            <label for="pfizer">Pfizer</label>
+            <br>
+            <input type="radio" name="vacina" id="coronavac" >
+            <label for="coronavac">CoronaVac</label>
+            <br>
+            <input type="radio" name="vacina" id="astrazeneca" >
+            <label for="astrazeneca">AstraZeneca</label>
+            <br>
+            <input type="radio" name="vacina" id="janssen" >
+            <label for="janssen">Janssen</label>
+            <br>
+            <p>Informe a data e a hora da aplicação:</p><br>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data_id"><br>
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora_id"><br><br>
+            <input type="submit" id="submit_botao" value="Enviar formulário">
+            <input type="reset" id="reset_botao" value="Limpar formulário">
+        </form>       
+    </body>
+
+</html>

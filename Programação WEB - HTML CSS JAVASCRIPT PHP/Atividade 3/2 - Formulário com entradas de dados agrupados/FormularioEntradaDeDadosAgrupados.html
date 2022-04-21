@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Cadastro Veterinario</title>
+    </head>
+    <body>
+        <form>
+            <h1>Cadastro Veterinário</h1>
+            <fieldset>
+                <legend>Dados do Proprietário</legend><br>
+                <label for="nome_id">Nome:</label>
+                <input type="text" name="nome" id="nome_id" required><br><br>
+                <label for="email_id">Email:</label>
+                <input type="email" name="email" id="email_id"><br><br>
+                <label for="telefone_id">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone_id" required><br><br>
+                <label for="estado_id">Estado:</label>
+                <input type="text" name="estado" id="estado_id"><br><br>
+                <label for="cidade_id">Cidade:</label>
+                <input type="text" name="cidade" id="cidade_id">
+            </fieldset><br>
+            <fieldset>
+                <legend>Dados do Animal</legend>
+                <label for="animal">Tipo de animal :</label> <br>
+                <input type="radio" name="animal" id="gato" required>
+                <label for="gato">Gato</label><br>
+                <input type="radio" name="animal" id="cachorro" >
+                <label for="cachorro">Cachorro</label><br>
+                <input type="radio" name="animal" id="ave" >
+                <label for="ave">Ave</label><br>
+                <input type="radio" name="animal" id="peixe" >
+                <label for="peixe">Peixe</label><br>
+                <input type="radio" name="animal" id="grande porte" >
+                <label for="grande porte">Animal de grande porte Ex: Cavalo</label><br><br>
+
+                <label for="sintomas">Sintomas do animal :</label><br>
+                <input type="checkbox" id="febre" name="sintomas">
+                <label for="febre">Febre</label><br>
+                <input type="checkbox" id="cansaco" name="sintomas">
+                <label for="cansaco">Cansaço</label><br>
+                <input type="checkbox" id="vomito" name="sintomas">
+                <label for="vomito">Vômito</label><br>
+                <input type="checkbox" id="diarreia" name="sintomas">
+                <label for="diarreia">Diarréia</label><br>
+                <p>Observações sobre o animal:</p>
+                <textarea name="observacoes" id="observacoes_id" cols=50" rows="10"></textarea><br>
+            </fieldset><br>
+            <input type="submit" id="submit_botao" value="Enviar formulário">
+            <input type="reset" id="reset_botao" value="Limpar formulário">
+        </form>      
+    </body>
+
+</html>

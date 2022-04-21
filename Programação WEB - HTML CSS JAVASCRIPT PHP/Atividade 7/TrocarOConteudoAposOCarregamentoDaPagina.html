@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Trocar o conteúdo após o carregamento da página</title>
+        <style>textarea{resize: none;text-align: center;}</style>
+    </head>
+
+    <body onload="TrocarConteudo()">
+        <!--Conteúdo que está nos elmentos ANTES da pagina ser carregada-->
+        <h1>Frutas:</h1>
+        <textarea name="" id="f1" cols="10" rows="5">Manga</textarea> 
+        <textarea name="" id="f2" cols="10" rows="5">Laranja</textarea> 
+        <textarea name="" id="f3" cols="10" rows="5">Graviola</textarea>
+
+        <script>
+            var Fruta1 = document.getElementById("f1")
+            var Fruta2 = document.getElementById("f2")
+            var Fruta3 = document.getElementById("f3")
+            
+            function TrocarConteudo(){
+                //Conteúdo que está nos elmentos DEPOIS da pagina ser carregada
+                Fruta1.innerHTML = "Melancia"
+                Fruta2.innerHTML = "Cajá"
+                Fruta3.innerHTML = "Uva"
+            }
+        </script>
+
+    </body>
+
+</html>
+

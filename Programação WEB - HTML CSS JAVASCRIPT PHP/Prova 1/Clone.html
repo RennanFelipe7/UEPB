@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Clone</title>
+    </head>
+
+    <body>
+        <form>
+            <h1>Cadastro de Currículo</h1>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="nome_id">Nome:</label>
+                <input type="text" name="nome" id="nome_id" placeholder="Digite o seu nome"><br>
+                <label for="email_id">Email:</label>
+                <input type="email" name="email" id="email_id" placeholder="Digite o seu email"><br>
+                <label for="dataDeNascimento_id">Data de Nascimento</label>
+                <input type="date" name="dataDeNascimento" id="dataDeNascimento_id"><br>
+                <label for="Altura_id">Altura(m):</label>
+                <input type="number" name="Altura" id="Altura_id"><br>
+                <label for="site_id">Site:</label>
+                <input type="url" name="site" id="site_id" placeholder="Facebook, Linkedin,"><br>
+                <label for="estadoCivil_id">Estado Civil:</label>
+                <select name="estadoCivil" id="estadoCivil_id">
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="viuvo">Viúvo</option>
+                </select><br>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" id="feminino_id">
+                <label for="feminino_id">Masculino</label>
+                <input type="radio" name="sexo" id="masculino_id">
+                <label for="masculino_id">Feminino</label>
+            </fieldset>   
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="cep_id">CEP:</label>
+                <input type="text" name="cep" id="cep_id"><br>
+                <label for="endereco_id">Endereço:</label>
+                <input type="text" name="endereco" id="endereco_id">
+            </fieldset>
+            <fieldset>
+                <legend>Contato</legend>
+                <label for="telefone_id">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone_id"><br>
+                <label for="celular_id">Celular:</label>
+                <input type="tel" name="celular" id="celular_id">
+            </fieldset>
+            <fieldset>
+                <legend>Conhecimentos</legend>
+                <input type="checkbox" name="html" id="html_id">
+                <label for="html_id">HTML</label>
+                <input type="checkbox" name="css" id="css_id">
+                <label for="css_id">CSS</label>
+                <input type="checkbox" name="javascript" id="javascript_id">
+                <label for="javascript_id">JavaScript</label><br>
+                <label for="maisConhecimentos_id">Mais conhecimentos</label>
+                <textarea name="Mais conhecimentos" id="maisConhecimentos_id" cols="20" rows="10" placeholder="Digite os seus conhecimentos"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar" id="enviar_id">
+        </form>     
+    </body>
+
+</html>

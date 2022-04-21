@@ -1,0 +1,5 @@
+1 - Imagine que você possua um site de culinária no qual você disponibiliza algumas receitas. 
+Crie uma página com uma receita fictícia utilizando títulos para organizar conteúdo. Utilize quantos níveis de título achar necessário.
+
+
+2 - Faça uma página HTML com um texto pré-formatado que possua caracteres Entities e pelo menos um código.

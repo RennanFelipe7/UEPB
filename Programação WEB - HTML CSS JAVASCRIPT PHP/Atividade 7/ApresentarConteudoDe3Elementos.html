@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Apresentar o conteudo de 3 elementos</title>
+        <style>textarea{resize: none;text-align: center;}</style>   
+    </head>
+
+    <body>
+        <h1>Animais:</h1>                     
+        <textarea name="" id="t1" cols="5" rows="5">Lobo</textarea> 
+        <textarea name="" id="t2" cols="5" rows="5">Leão</textarea> 
+        <textarea name="" id="t3" cols="10" rows="5">Rinoceronte</textarea>   
+         
+        <script>     
+            var textarea1 = document.getElementById("t1")
+            var textarea2 = document.getElementById("t2")
+            var textarea3 = document.getElementById("t3")
+            var conteudoTxt1 = textarea1.innerHTML
+            var conteudoTxt2 = textarea2.innerHTML
+            var conteudoTxt3 = textarea3.innerHTML
+            alert("Aqui estão os conteudos dos elementos:")
+            alert(conteudoTxt1)
+            alert(conteudoTxt2)
+            alert(conteudoTxt3)
+        </script>  
+    </body>
+
+</html>
